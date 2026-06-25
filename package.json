@@ -1,0 +1,15 @@
+{
+  "name": "ctf-transformers-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CTF Transformers — desktop control app (Tauri wrapper)",
+  "scripts": {
+    "tauri": "tauri",
+    "icon": "tauri icon src-tauri/icons/app-icon.png",
+    "build": "tauri build",
+    "dev": "tauri dev"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}
